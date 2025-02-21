@@ -28,7 +28,7 @@ JavaScript
 
 ### Clone este repositório:
 
-git clone https://github.com/seu-usuario/challenge-amigo-secreto.git
+git clone [https://github.com/duarles745/Desafio-one.git]
 
 Acesse a pasta do projeto:
 
