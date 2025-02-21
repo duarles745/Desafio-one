@@ -1,19 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f9f9f9;
+    background: url(../img/abstract-blue-geometric-shapes-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px; /* Espaçamento entre os containers */
+    flex-direction: column;
+}
+
+.container1 img {
+    width: 150px; /* Ajuste do tamanho da imagem */
+    margin-bottom: 100px;
+    user-select: unset;
 }
 
 .container {
-    background: white;
+    margin-top: 50px;
+    background: url(../img/white-glitter-iyl4z1fuajvsxhhg.jpg);
+    background-size: cover;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 500px;
+    position: relative; /* Mantém a posição alinhada */
 }
 
 input {
@@ -25,17 +45,22 @@ input {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #9c0404;
     color: white;
     border: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
+    width: 150px;
+    height: 45px;
+
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #6b0404;
+    width: 190px;
+    height: 50px;
 }
 
 ul {
@@ -48,4 +73,33 @@ li {
     padding: 5px;
     margin: 5px 0;
     border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 250px; /* Ajuste para o tamanho desejado */
+    display: block;
+    user-select: unset;
+    margin: 0 auto;
+}
+
+button1 {
+    background-color: #8a8a8a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    margin-left: 300px;
+
+}
+
+button1:hover {
+    background-color: #525252;
+    width: 17px;
+    height: 17px;
 }

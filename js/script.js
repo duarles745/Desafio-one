@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const item = document.createElement("li");
             item.textContent = nome;
             
-            const botaoRemover = document.createElement("button");
+            const botaoRemover = document.createElement("button1");
             botaoRemover.textContent = "❌";
             botaoRemover.onclick = () => removerNome(index);
             
@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         
         const sorteado = nomes[Math.floor(Math.random() * nomes.length)];
-        resultado.textContent = `🎉 O amigo secreto sorteado é: ${sorteado}! 🎉`;
+        resultado.textContent = ` O amigo secreto sorteado é: ${sorteado}! `;
     });
 });
